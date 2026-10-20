@@ -23,6 +23,7 @@ def get_cached_response(cache_key):
     Return None if missing or expired.
     """
     with _cache_lock:
+        
         entry = _cache.get(cache_key)
 
         if entry is None:
