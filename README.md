@@ -19,7 +19,3 @@ python main.py
 ## Proxy address
 127.0.0.1:8080
 
-## Team responsibilities
-- Member 1: Networking, request forwarding, multithreading,
-  and domain blocking.
-- Member 2: Cache storage, TTL expiry, and analytics.
